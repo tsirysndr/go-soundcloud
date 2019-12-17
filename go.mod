@@ -1,4 +1,4 @@
-module go-soundcloud
+module github.com/tsirysndr/go-soundcloud
 
 go 1.13
 
