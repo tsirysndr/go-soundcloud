@@ -25,6 +25,7 @@ Construct a new SoundCloud client, then use the various services on the client t
 
 ```Go
 client := soundcloud.NewClient()
+track, _ := client.Track.Get("13158665")
 ```
 
 ## Author
