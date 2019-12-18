@@ -46,7 +46,7 @@ type Track struct {
 	Title               string `json:"title"`
 	TrackType           string `json:"track_type"`
 	URI                 string `json:"uri"`
-	User                User   `json:"user"`
+	User                *User  `json:"user"`
 	UserID              int    `json:"user_id"`
 	VideoURL            string `json:"video_url"`
 	WaveformURL         string `json:"waveform_url"`
