@@ -21,8 +21,13 @@ type service struct {
 	client *Client
 }
 
+type Params struct {
+	ClientID string `url:"client_id"`
+}
+
 func NewClient() *Client {
-	base := sling.New().Base("https://api.soundcloud.com/")
+	params := &Params{"FnJDg9sbLbDFKFL01ySCYBqcwZeRDxZj"}
+	base := sling.New().Base("https://api.soundcloud.com/").QueryStruct(params)
 	c := &Client{}
 	c.base = base
 	c.common.client = c
