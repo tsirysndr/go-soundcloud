@@ -5,6 +5,7 @@
   </a>
   <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/tsirysndr/go-soundcloud">
   <img alt="GitHub go.mod Go version" src="https://img.shields.io/github/go-mod/go-version/tsirysndr/go-soundcloud">
+  <img alt="GitHub closed pull requests" src="https://img.shields.io/github/issues-pr-closed-raw/tsirysndr/go-soundcloud">
   <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/tsirysndr/go-soundcloud">
   <img alt="GitHub issues" src="https://img.shields.io/github/issues/tsirysndr/go-soundcloud">
   <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/tsirysndr/go-soundcloud">
