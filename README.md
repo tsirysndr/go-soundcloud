@@ -19,13 +19,13 @@
 
 > go-soundcloud is a Go client library for accessing the [SoundCloud API](https://developers.soundcloud.com/docs/api/reference)
 
-## Install
+## 🚚 Install
 
 ```sh
 go get github.com/tsirysndr/go-soundcloud
 ```
 
-## Usage
+## 🚀 Usage
 
 Import the package into your project.
 
