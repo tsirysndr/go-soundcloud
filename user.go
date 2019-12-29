@@ -3,12 +3,12 @@ package soundcloud
 type UserService service
 
 type User struct {
-	AvatarURL    string `json:"avatar_url"`
-	ID           int    `json:"id"`
-	Kind         string `json:"kind"`
-	LastModified string `json:"last_modified"`
-	Permalink    string `json:"permalink"`
-	PermalinkURL string `json:"permalink_url"`
-	URI          string `json:"uri"`
-	Username     string `json:"username"`
+	AvatarURL    string `json:"avatar_url,omitempty"`
+	ID           int    `json:"id,omitempty"`
+	Kind         string `json:"kind,omitempty"`
+	LastModified string `json:"last_modified,omitempty"`
+	Permalink    string `json:"permalink,omitempty"`
+	PermalinkURL string `json:"permalink_url,omitempty"`
+	URI          string `json:"uri,omitempty"`
+	Username     string `json:"username,omitempty"`
 }

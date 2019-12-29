@@ -22,7 +22,7 @@ type service struct {
 }
 
 type Params struct {
-	ClientID string `url:"client_id"`
+	ClientID string `url:"client_id,omitempty"`
 }
 
 func NewClient() *Client {
