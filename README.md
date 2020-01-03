@@ -40,6 +40,37 @@ client := soundcloud.NewClient()
 track, _ := client.Track.Get("13158665")
 ```
 
+## ✨ Coverage
+
+Currently the following services are supported:
+
+- [ ] Get SoundCloud User
+- [x] Get SoundCloud Track
+- [x] Get list of SoundCloud Tracks
+- [ ] Get Comments for the Track
+- [ ] Get comment for the track
+- [ ] Get users who favorited the track
+- [ ] Get user who has favorited to the track
+- [ ] Get secret token of the track
+- [x] Get list of Playlists
+- [x] Get Playlist
+- [ ] Get secret token of the playlist
+- [ ] Get list of Comments
+- [ ] Get comment
+- [ ] Get information about the authenticated user
+- [ ] Get list of tracks of the user
+- [ ] Get list of playlists (sets) of the user
+- [ ] Get list of users who are followed by the user
+- [ ] Get user who is followed by the user
+- [ ] Get list of users who are following the user
+- [ ] Get user who is following the user
+- [ ] Get list of comments from this user
+- [ ] Get list of tracks favorited by the user
+- [ ] Get track favorited by the user
+- [ ] Get list of web profiles
+- [ ] Get list dashboard activities
+- [ ] Get list of connected external profiles
+
 ## Author
 
 👤 **Tsiry Sandratraina**
